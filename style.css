@@ -1,0 +1,144 @@
+/* https://maketintsandshades.com/#ff951c */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1, h2, p, sub {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding-block: 16px;
+    color: #ff951c;
+    background-color: #ffdfbb;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 40px;
+}
+
+main h2 {
+    color:#ff951c;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-block: 64px;
+    background-image: url('https://storage.googleapis.com/aplikasi-profile/banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 196px;
+}
+
+.profile-desc {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    width: 500px;
+}
+
+.profile-data {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.list-info span {
+    color: #ffb560;
+}
+
+.list-exp {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.card-exp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.card-exp img {
+    width: 80px;
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.list-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 64px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    color: white;
+    background-color: #ff951c;
+    gap: 12px;
+}
+
+footer h2,
+footer p,
+footer a {
+    color: white;
+}
+
+.list-socmed {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 40px;
+    gap: 20px;
+}
